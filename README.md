@@ -21,3 +21,28 @@ This project is a comprehensive AI-powered quiz generation tool leveraging Googl
    ```bash
    git clone https://github.com/your-username/ai-quiz-generator.git
    cd ai-quiz-generator
+Set Up Google Cloud:
+
+Create a Google Cloud account and project.
+Enable Vertex AI APIs.
+Set up service accounts with the necessary permissions.
+Install Dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Application:
+
+bash
+Copy code
+streamlit run app.py
+Usage
+Follow the on-screen instructions in Streamlit to select a topic, input the number of questions, and generate quizzes.
+The generated quizzes are based on documents processed by the application and embeddings created using Vertex AI.
+Technologies Used
+Google Cloud Platform (Vertex AI)
+Streamlit
+Langchain
+PyPDFLoader
+ChromaDB
+Python
